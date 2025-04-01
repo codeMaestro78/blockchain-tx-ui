@@ -1,0 +1,57 @@
+{
+  "name": "blockchain-tx-ui",
+  "version": "1.0.0",
+  "description": "A React UI component library for blockchain transactions",
+  "license": "ISC",
+  "author": "Devarshi Lalani",
+  "homepage": "https://github.com/codeMaestro78/blockchain-tx-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeMaestro78/blockchain-tx-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codeMaestro78/blockchain-tx-ui/issues"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "blockchain",
+    "ethereum",
+    "transaction",
+    "web3",
+    "ui",
+    "component"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "web3": "^4.16.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.13.14",
+    "@types/react": "^19.0.12",
+    "jest": "^29.7.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "rollup": "^4.38.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^5.8.2"
+  }
+}
